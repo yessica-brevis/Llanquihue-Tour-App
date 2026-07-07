@@ -1,9 +1,12 @@
 package model;
 
+// Clase que representa una ruta gastronómica ofrecida por la agencia.
 public class RutaGastronomica extends ServicioTuristico {
     
+// Número de paradas que contempla la ruta gastronómica.  
  private int numeroDeParadas;   
 
+// Constructor que inicializa los datos de la ruta gastronómica.
     public RutaGastronomica(String nombre, int duracionHoras, int numeroDeParadas) {
         super(nombre, duracionHoras);
         this.numeroDeParadas = numeroDeParadas;

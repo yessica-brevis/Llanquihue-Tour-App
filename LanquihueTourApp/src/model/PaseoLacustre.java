@@ -1,6 +1,6 @@
 package model;
 
-// Clase que representa un paseo lacustre ofrecida por la agencia.
+// Clase que representa un paseo lacustre ofrecida por la agencia y hereda de ServicioTuristico.
 public class PaseoLacustre extends ServicioTuristico {
     
 // Tipo de embarcación utilizada para realizar el paseo.  

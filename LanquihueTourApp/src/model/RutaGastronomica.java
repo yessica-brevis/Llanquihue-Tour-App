@@ -22,7 +22,7 @@ public class RutaGastronomica extends ServicioTuristico {
     public void setNumeroDeParadas(int numeroDeParadas) {
         this.numeroDeParadas = numeroDeParadas;
     }
-    // Método que muestra la información de la ruta gastronómica 
+    // Método sobreescrito que muestra la información de la ruta gastronómica 
  @Override
     public void mostrarInformacion() {
         System.out.println("RUTA GASTRONOMICA");

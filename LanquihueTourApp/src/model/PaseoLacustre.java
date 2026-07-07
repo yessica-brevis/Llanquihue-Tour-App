@@ -22,7 +22,7 @@ public class PaseoLacustre extends ServicioTuristico {
             this.tipoDeEmbarcacion = tipoDeEmbarcacion;
         }
  
-   // Método que muestra la información de paseo lacustre. 
+   // Método sobreescrito que muestra la información de paseo lacustre. 
  @Override
     public void mostrarInformacion() {
         System.out.println("PASEO LACUSTRE");

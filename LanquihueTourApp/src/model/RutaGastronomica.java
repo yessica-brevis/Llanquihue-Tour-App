@@ -1,6 +1,6 @@
 package model;
 
-// Clase que representa una ruta gastronómica ofrecida por la agencia.
+// Clase que representa una ruta gastronómica ofrecida por la agencia y hereda de ServicioTuristico.
 public class RutaGastronomica extends ServicioTuristico {
     
 // Número de paradas que contempla la ruta gastronómica.  

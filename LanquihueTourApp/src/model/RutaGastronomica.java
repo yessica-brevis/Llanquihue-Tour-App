@@ -19,8 +19,7 @@ public class RutaGastronomica extends ServicioTuristico {
     public void setNumeroDeParadas(int numeroDeParadas) {
         this.numeroDeParadas = numeroDeParadas;
     }
-    
-   // Método toString para mostrar la información del objeto 
+    // Método que muestra la información de la ruta gastronómica 
  @Override
     public void mostrarInformacion() {
         System.out.println("RUTA GASTRONOMICA");

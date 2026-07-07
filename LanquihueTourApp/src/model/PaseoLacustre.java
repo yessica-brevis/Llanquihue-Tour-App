@@ -23,7 +23,7 @@ public class PaseoLacustre extends ServicioTuristico {
   
     
     
-   // Método toString para mostrar la información del objeto 
+   // Método que muestra la información de paseo lacustre. 
  @Override
     public void mostrarInformacion() {
         System.out.println("PASEO LACUSTRE");

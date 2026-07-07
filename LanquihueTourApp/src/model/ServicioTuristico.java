@@ -32,7 +32,7 @@ public class ServicioTuristico {
 
 
    
-    // Método para mostrar la información del objeto 
+   // Método que muestra la información general del servicio turístico. 
  
     public void mostrarInformacion() {
         System.out.println("Servicio Turistico");

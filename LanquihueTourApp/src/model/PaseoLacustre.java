@@ -1,9 +1,12 @@
 package model;
 
+// Clase que representa un paseo lacustre ofrecida por la agencia.
 public class PaseoLacustre extends ServicioTuristico {
     
+// Tipo de embarcación utilizada para realizar el paseo.  
  private String tipoDeEmbarcacion;
- 
+
+// Constructor que inicializa los datos del paseo lacustre.
  public PaseoLacustre(String nombre, int duracionHoras, String tipoDeEmbarcacion) {
         super(nombre, duracionHoras);
         this.tipoDeEmbarcacion = tipoDeEmbarcacion;

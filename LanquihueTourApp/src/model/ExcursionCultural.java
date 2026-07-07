@@ -22,7 +22,7 @@ public class ExcursionCultural extends ServicioTuristico {
         }
  
     
-  // Método que muestra la información de la excursión cultural. 
+  // Método sobreescrito que muestra la información de la excursión cultural. 
  @Override
     public void mostrarInformacion() {
         System.out.println("EXCURSION CULTURAL");

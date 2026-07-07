@@ -1,5 +1,6 @@
 package model;
 
+// Clase que representa una excursión cultural ofrecida por la agencia.
 public class ExcursionCultural extends ServicioTuristico {
     
     private String lugarHistorico;

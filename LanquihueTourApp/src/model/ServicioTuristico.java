@@ -29,17 +29,13 @@ public class ServicioTuristico {
     public void setDuracionHoras(int duracionHoras) {
         this.duracionHoras = duracionHoras;
     }
-
-
-   
+ 
    // Método que muestra la información general del servicio turístico. 
  
     public void mostrarInformacion() {
         System.out.println("Servicio Turistico");
         System.out.println("Nombre: " + nombre);
-        System.out.println("Duracion: " + duracionHoras + "hrs.");
-    
-        
+        System.out.println("Duracion: " + duracionHoras + "hrs.");   
     }
     
     }

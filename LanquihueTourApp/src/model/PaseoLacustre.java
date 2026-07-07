@@ -14,7 +14,6 @@ public class PaseoLacustre extends ServicioTuristico {
     }
     
  // Métodos getter y setter
-
         public String getTipoDeEmbarcacion() {
             return tipoDeEmbarcacion;
         }
@@ -22,10 +21,7 @@ public class PaseoLacustre extends ServicioTuristico {
         public void setTipoDeEmbarcacion(String tipoDeEmbarcacion) {
             this.tipoDeEmbarcacion = tipoDeEmbarcacion;
         }
-
-  
-    
-    
+ 
    // Método que muestra la información de paseo lacustre. 
  @Override
     public void mostrarInformacion() {

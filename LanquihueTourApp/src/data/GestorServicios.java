@@ -7,7 +7,7 @@ import model.PaseoLacustre;
 import model.ExcursionCultural;
 
 
-// Clase encargada de leer los datos
+// Clase encargada de administrar la colección de servicios turísticos.
 public class GestorServicios {
     
   public ArrayList<ServicioTuristico> generarServicios() {
